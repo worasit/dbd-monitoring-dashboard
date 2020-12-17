@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd808593-ff38-4d66-bd88-0127f95c5ab5" name="Default Changelist" comment="" />
+    <list default="true" id="cd808593-ff38-4d66-bd88-0127f95c5ab5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deployment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="ProjectId" id="1lhH8lIaCWeuFFKSUIXS3ajAnsQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,9 +36,38 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.ActionScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="k8s: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="k8s/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -33,6 +80,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.k8s: Compose Deployment" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -45,7 +95,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608042247306</updated>
-      <workItem from="1608042248873" duration="1149000" />
+      <workItem from="1608042248873" duration="2150000" />
+      <workItem from="1608046430270" duration="2207000" />
+      <workItem from="1608126033162" duration="4719000" />
+      <workItem from="1608131801870" duration="6182000" />
+      <workItem from="1608182257886" duration="1112000" />
     </task>
     <servers />
   </component>
@@ -53,21 +107,110 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1608044242086">
+    <state x="440" y="173" key="#Plugins" timestamp="1608048042403">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608044242086" />
-    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1608044242085">
+    <state x="440" y="173" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1608048042403" />
+    <state x="424" y="259" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608126111920">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="424" y="259" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1608126111920" />
+    <state x="634" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608130371527">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="555" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1608048452506" />
+    <state x="634" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1608130371527" />
+    <state width="1899" height="339" key="GridCell.Tab.0.bottom" timestamp="1608178540242">
+      <screen x="0" y="0" width="1920" height="1129" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608046410316" />
+    <state width="1899" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1129@0.0.1920.1129" timestamp="1608178540242" />
+    <state width="1899" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1608137906646" />
+    <state width="1899" height="339" key="GridCell.Tab.0.center" timestamp="1608178540241">
+      <screen x="0" y="0" width="1920" height="1129" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608046410315" />
+    <state width="1899" height="339" key="GridCell.Tab.0.center/0.0.1920.1129@0.0.1920.1129" timestamp="1608178540241" />
+    <state width="1899" height="339" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1608137906645" />
+    <state width="1899" height="339" key="GridCell.Tab.0.left" timestamp="1608178540240">
+      <screen x="0" y="0" width="1920" height="1129" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608046410314" />
+    <state width="1899" height="339" key="GridCell.Tab.0.left/0.0.1920.1129@0.0.1920.1129" timestamp="1608178540240" />
+    <state width="1899" height="339" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1608137906644" />
+    <state width="1899" height="339" key="GridCell.Tab.0.right" timestamp="1608178540242">
+      <screen x="0" y="0" width="1920" height="1129" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608046410315" />
+    <state width="1899" height="339" key="GridCell.Tab.0.right/0.0.1920.1129@0.0.1920.1129" timestamp="1608178540242" />
+    <state width="1899" height="339" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1608137906645" />
+    <state width="1899" height="418" key="GridCell.Tab.1.bottom" timestamp="1608131784702">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784702" />
+    <state width="1899" height="418" key="GridCell.Tab.1.center" timestamp="1608131784701">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784701" />
+    <state width="1899" height="418" key="GridCell.Tab.1.left" timestamp="1608131784701">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784701" />
+    <state width="1899" height="418" key="GridCell.Tab.1.right" timestamp="1608131784702">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784702" />
+    <state width="1899" height="418" key="GridCell.Tab.2.bottom" timestamp="1608131784704">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784704" />
+    <state width="1899" height="418" key="GridCell.Tab.2.center" timestamp="1608131784703">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784703" />
+    <state width="1899" height="418" key="GridCell.Tab.2.left" timestamp="1608131784703">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784703" />
+    <state width="1899" height="418" key="GridCell.Tab.2.right" timestamp="1608131784703">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784703" />
+    <state width="1899" height="418" key="GridCell.Tab.3.bottom" timestamp="1608131784705">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.3.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784705" />
+    <state width="1899" height="418" key="GridCell.Tab.3.center" timestamp="1608131784704">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.3.center/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784704" />
+    <state width="1899" height="418" key="GridCell.Tab.3.left" timestamp="1608131784704">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.3.left/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784704" />
+    <state width="1899" height="418" key="GridCell.Tab.3.right" timestamp="1608131784705">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.3.right/0.0.1920.1200@0.0.1920.1200" timestamp="1608131784705" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1608046615427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608044242085" />
-    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1608044242084">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1608046615427" />
+    <state x="577" y="266" width="766" height="773" key="search.everywhere.popup" timestamp="1608137668772">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608044242084" />
-    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1608044242086">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608044242086" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1608048031322" />
+    <state x="577" y="266" width="766" height="773" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1608137668772" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
